@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+   
+}
+body{
+    
+    background-size: cover;
+    max-width: 100%;    
+   
+    font-family: 'Roboto', sans-serif;
+} 
+header{
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    height: 10vh;
+    border-top: solid .6rem #007BC6;   
+    align-items: center;
+    justify-content: space-around;
+
+}
+.textHeader{
+    font-size: 2rem;
+    color:#007BC6;
+    letter-spacing: .2rem;
+    cursor: pointer;
+
+}
+.textHeader:hover{
+    font-size: 2.3rem;
+    transition: .5s;
+}
+.logo{
+    width: 25rem;
+    margin-top: 3.5rem;
+    cursor: pointer;
+    
+   
+   
+}
+.about{display: flex;
+    color:white;
+    border-bottom: solid .6rem #007BC6 ;
+    padding:1rem;
+    width:90%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.315);
+    margin:auto;
+    border-radius: .5rem;
+    margin-top: 5rem;
+    height: 35rem;
+    background-image: linear-gradient(to right, #F27405,#F24405);
+    justify-content: space-around;
+}
+
+
+.textAbout{
+    margin-top: 8rem;    
+    margin-left:8rem;
+    padding-left: 3rem;
+    line-height: 5rem;
+}
+.imgAbout{
+    width: 50rem;
+   
+}
+.container{
+    width: 95%;
+    background-color: #e4e4e4;
+    box-shadow:6px 6px 6px rgba(0, 0, 0, 0.315);
+    border-radius: .8rem;
+    height: 126vh ;    
+    margin: auto;
+}
+.contProjects {   
+   
+    width: 70%; 
+    padding: .2rem;
+    margin:auto;      
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns:  35rem 35rem 35rem;
+    grid-template-columns:  35rem 35rem 35rem;
+    grid-gap: 2rem;   
+    padding-top:3rem;  
+    color: white;    
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+    
+ }
+  .contProjects h3{font-size: 3rem;
+       
+        color: white;
+    
+ }
+
+.contProjects p{
+        font-size: 2rem;       
+        color: white;
+}
+
+.textProject{
+    display: block;
+    margin: auto;
+    color: #007BC6;
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    text-align: CENTER;
+    margin-top:10rem;
+    
+    
+}
+.imgProject{
+    width: 30rem;
+    height: 30rem;
+    border: solid .3rem #F27405;
+}
+.projects{padding: 2rem;
+    
+    background-image: linear-gradient(to bottom, #007BC6,#0061B3);
+    text-align: center;
+    height: 45rem;    
+    border-radius: .8rem;
+    display: flex;
+    box-shadow:6px 6px 6px rgba(0, 0, 0, 0.315);
+    border-bottom: solid .5rem #F27405;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+        
+ }
+a { color: inherit;
+    text-decoration: none; 
+} 
+.click{
+    padding-top: 2rem; 
+    font-size: 1.5rem;
+    color: white;
+    
+}
+ 
+  
+ .projects:hover{background-image: linear-gradient(to bottom, #F27405,#f76733);
+    color: white;
+   border:solid 1rem #F27405;    
+    transition: .5s;
+    }
+
+
+   .h2Footer{ display: block;
+    margin: auto;
+    color: #007BC6;
+    font-size: 4rem;
+    letter-spacing: .1rem;
+    text-align: CENTER;
+    margin-top:15rem;}
+
+
+footer{display: flex;
+    margin: auto;
+    justify-content: space-around;
+    letter-spacing: .1rem;
+    line-height: 3.6rem;
+    color: white;
+    padding: 2rem; 
+    padding-top: 5rem;  
+    padding-bottom: 5rem;
+    padding-left: 12rem;
+    font-size: 3.8rem;     
+    background-image: linear-gradient(to right, #F27405,#F24405);
+    border-BOTTOM: solid .6rem #007BC6; 
+    box-shadow:6px 6px 6px rgba(0, 0, 0, 0.315);
+}
+.imgFooter{width: 32rem;
+   
+    float:right;
+    border:solid 1rem #007BC6;
+    border-radius: 2rem 1rem 3rem 0;
+}
+.textFooter span{width: 100%;
+    font-weight: bold;
+    font-size: 2.5rem;
+   
+
+}
+
+.social{margin: auto;
+    width: 80%;
+    font-size: 2rem;
+    display: flex;    
+    height: 9vh;      
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 2rem;
+    color:#007BC6;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 780px) {
+
+  header{
+  
+    display: flex;
+    padding-top: 5rem;
+    height: 10vh;
+     flex-direction: column; 
+    align-items: center;
+    justify-content: none;
+
+}
+.textHeader{line-height: 3rem;}
+.logo{
+    width: 30rem;
+
+}
+
+.about{ margin-top: 10rem;    
+    height: 25rem;
+    
+}
+
+
+.textAbout{padding: 1.5rem;
+    margin:auto;
+    line-height: 3rem;
+    
+   
+}
+.h1about{
+    font-size: 4rem;
+}
+.textAbout p{
+    font-size: 1rem;
+    
+    }
+.imgAbout{display: none;   
+   
+}
+.contProjects {font-size: 5rem;
+    margin: auto;
+    grid-template-columns:  30rem  ;
+      
+    padding-top:3rem; 
+    
+    grid-gap:4rem ;
+
+    
+  }
+.textProject{font-size: 3.5rem;
+}
+.imgProject{ width: 25rem;
+    height: 25rem;
+
+}
+
+.contProjects h3{font-size: 2.5rem;
+       
+    color: white;
+
+}
+
+.contProjects p{
+    font-size: 1.5rem;       
+    color: white;
+}
+.click{font-size: 1.2rem;
+background-color: #F27405;
+padding: .5rem;
+border-radius: 2rem;
+
+}
+
+.h2Footer{
+    margin-top: 225rem;
+}
+footer{display: flex;
+    margin: auto;
+    justify-content: none;
+    letter-spacing: .1rem;
+    line-height: 2rem; 
+    padding: 0; 
+    padding-top: 1rem;  
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 3.8rem;
+    margin-top: 0REM; 
+    
+   
+
+}
+.textFooter{
+    font-size: 1.5rem;
+    line-height: none;
+   
+}
+.textFooter span{width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+
+}
+.imgFooter{display: none;}
+}
