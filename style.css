@@ -281,7 +281,7 @@ border-radius: 2rem;
 }
 
 .h2Footer{
-    margin-top: 225rem;
+    margin-top: 230rem;
 }
 footer{display: flex;
     margin: auto;
@@ -310,4 +310,9 @@ footer{display: flex;
 
 }
 .imgFooter{display: none;}
+}
+.social{
+    width: 85%;
+    
+    
 }
